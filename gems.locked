@@ -1,0 +1,31 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    bake (0.18.2)
+      samovar (~> 2.1)
+    benchmark-ips (2.12.0)
+    console (1.17.2)
+      fiber-annotation
+      fiber-local
+    fiber-annotation (0.2.0)
+    fiber-local (1.0.0)
+    json (2.6.3)
+    mapping (1.1.1)
+    oj (3.15.0)
+    samovar (2.2.0)
+      console (~> 1.0)
+      mapping (~> 1.0)
+    yajl-ruby (1.4.3)
+
+PLATFORMS
+  x86_64-linux
+
+DEPENDENCIES
+  bake
+  benchmark-ips
+  json
+  oj
+  yajl-ruby
+
+BUNDLED WITH
+   2.4.16

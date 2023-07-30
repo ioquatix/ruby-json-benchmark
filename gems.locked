@@ -8,6 +8,7 @@ GEM
       fiber-annotation
       fiber-local
     fiber-annotation (0.2.0)
+    fast_jsonparser (0.6.0)
     fiber-local (1.0.0)
     json (2.6.3)
     mapping (1.1.1)
@@ -23,6 +24,7 @@ PLATFORMS
 DEPENDENCIES
   bake
   benchmark-ips
+  fast_jsonparser
   json
   oj
   yajl-ruby

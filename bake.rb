@@ -3,6 +3,7 @@ require 'oj'
 # require 'oj/json'
 require 'yajl'
 require 'json'
+require 'fast_jsonparser'
 
 FILENAME = 'tweet.json'.freeze
 
@@ -16,6 +17,10 @@ def benchmark_load
 		
 		x.report('oj parser') do
 			Oj.load(json)
+		end
+		
+		x.report('simdjson parser') do
+			FastJsonparser.parse(json)
 		end
 		
 		x.report('json parser') do
